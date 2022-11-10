@@ -10,6 +10,11 @@ API's são uma forma moderna de se trocar dados entre vários sistemas. Dessa fo
 Este repositório vai armazenar a construção de uma API baseada no NodeJs e no tutorial do DEV2DEV
 
 ---
+## Comandos principais
+
+yarn start 
+
+---
 
 ## ☕ Desenvolvido por:
 

@@ -22,9 +22,10 @@ server.get('/babado' , (req, res) => {
 
 
 
-server.get("/pokemon" , async (req , res) => {
+server.get("/pokemon/:id" , async (req , res) => {
+    const { id } = req.params;
     try {
-        const { data } = await api.get('pokemon/2');
+        const { data } = await api.get(`pokemon/${id}`);
 
         return res.send({name: data.name });
     } catch (error) {
