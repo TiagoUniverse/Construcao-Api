@@ -24,7 +24,7 @@ server.get('/babado' , (req, res) => {
 
 server.get("/pokemon" , async (req , res) => {
     try {
-        const { data } = await api.get('pokemon/1');
+        const { data } = await api.get('pokemon/2');
 
         return res.send({name: data.name });
     } catch (error) {
