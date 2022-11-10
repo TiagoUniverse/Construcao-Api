@@ -7,3 +7,9 @@ server.use(express.json());
 
 
 server.listen(3000);
+
+
+
+server.get('/' , (req, res) => {
+    return res.send({message: "OIIIIIIIE! Seja bem vindoo"});
+});
